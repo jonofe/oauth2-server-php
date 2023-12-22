@@ -1,3 +1,4 @@
+```
 # Hier mal eine erste Plain Text Doku zu dem Thema. 
 # Wichtig ist, dass als erstes der Reverse Proxy korrekt funktioniert (Schritt 1). 
 # Die Einrichtung eines RevProxy habe ich hier nicht mehr detailliert dokumentiert, 
@@ -136,3 +137,5 @@ nano /usr/local/edomi/www/admin/include/php/alexa-actions/alexa_actionable_notif
 #        EDOMI Webserver: /var/log/https/access.log und /var/log/https/error.log
 #        EDOMI LBS: CUSTOMLOG_Alexa_Actions.log und CUSTOMLOG_Alexa_Control-LBS19000809-<ID>.<log|htm>
 #
+```
+``
