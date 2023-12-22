@@ -1,8 +1,8 @@
 ```
-# Hier mal eine erste Plain Text Doku zu dem Thema. 
+# Hier mal eine erste Plain Text Doku zum Thema EDOMI Oauth2 Server und Alexa Actionable Notification . 
 # Wichtig ist, dass als erstes der Reverse Proxy korrekt funktioniert (Schritt 1). 
 # Die Einrichtung eines RevProxy habe ich hier nicht mehr detailliert dokumentiert, 
-# da dies ja bereits mehrfach hier im Forum gemacht wurde und auch in manchen LBS Dokus enthalten ist. z.B. im 19001201.
+# da dies ja bereits mehrfach im EDOMI Forum gemacht wurde und auch in manchen LBS Dokus enthalten ist. z.B. im 19001201.
 #
 # Voraussetzungen:
 # ================
@@ -47,7 +47,10 @@ mkdir -p /usr/local/edomi/www/admin/include/php/alexa-actions/oauth2
 #                Your Web Authorization URI: https://<EDOMI-DNS-Name>/auth/authorize.php
 #                Access Token URI: https://<EDOMI-DNS-Name>/auth/token.php
 #                Your Secret: <beliebiges Passwort> (wird auch später bei der OAUTH2 Konfiguration verwendet
-#        - Im Code-Tab des Skills sind im Vergelich zum Video folgende Änderungen zu machen:
+#                Your Authentication Scheme: Credentials in request body
+#                Scope: smart_home
+#                Auf dieser Seite steht auch die Redirect URL: https://layla.amazon.com/api/skill/link/***********
+#        - Im Code-Tab des Skills sind im Vergelich zum Video folgende Dinge zu tun :
 #
 #           Alle Dateien von https://github.com/jonofe/alexa-actions/tree/master/lambda im Code Bereich des Skill hochladen bzw. falls schon vorhanden, anpassen.
 #           Dann folgende Änderungen machen:
